@@ -1,0 +1,10 @@
+@for(i of indexesCards; track i) {
+  @if(i % 3 !== 0) {
+    <app-hello-card [cardIndex]="i"></app-hello-card>
+  } @else {
+    <span>Card number {{ i }}</span>
+  }
+}
+
+<br>
+<button (click)="addCard()">Add card</button>
