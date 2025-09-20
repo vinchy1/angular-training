@@ -29,6 +29,12 @@
     },
     {
       "path": "./projects/hello-angular/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/hello-service/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/hello-service/tsconfig.spec.json"
     }
   ]
 }
