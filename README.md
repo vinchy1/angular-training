@@ -65,7 +65,13 @@ Cette formation a été spécifiquement conçue pour aider des développeurs ave
 - RxJS (map, filter)
 - Intercepteur
 
-### 3.5. Routing
+### 3.5. Composant smart dumb
+
+- Concept
+- Workshop - liste angular
+- RxJS (combineLatest, Subject, BehaviorSubject)
+
+### 3.6. Routing
 
 - routing de base
 - lazy loading
@@ -78,16 +84,10 @@ Cette formation a été spécifiquement conçue pour aider des développeurs ave
 - valueChanges()
 - RxJS (switchMap, debounceTime)
 
-### 3.8. Composant smart dumb
-
-- Concept
-- Workshop - liste angular
-- RxJS (combineLatest, Subject, BehaviorSubject)
-
-### 3.9. Optimization
+### 3.8. Optimization
 
 - Custom pipes
 - OnPush
 - Cycle de vie des composants
 
-### 3.10. Signals and zoneless app
+### 3.9. Signals and zoneless app
