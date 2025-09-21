@@ -1,0 +1,22 @@
+{
+  "realEstateAds": [
+    {
+      "id": 1,
+      "title": "Appartement 1",
+      "description": "Appartement 1",
+      "price": 100000
+    },
+    {
+      "id": 2,
+      "title": "Appartement 2",
+      "description": "Appartement 2",
+      "price": 200000
+    },
+    {
+      "id": 3,
+      "title": "Appartement 3",
+      "description": "Appartement 3",
+      "price": 300000
+    }
+  ]
+}

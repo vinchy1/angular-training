@@ -1,0 +1,10 @@
+<h1>Real Estate Ads</h1>
+@for(realEstateAd of realEstateAds$ | async; track realEstateAd.id) {
+<div>
+  <h2>
+    <a [routerLink]="['/real-estate', realEstateAd.id]">{{ realEstateAd.title }}</a>
+  </h2>
+  <p>{{ realEstateAd.description }}</p>
+  <p>{{ realEstateAd.price }}</p>
+</div>
+}

@@ -29,6 +29,12 @@
     },
     {
       "path": "./projects/hello-angular/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/router-project/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/router-project/tsconfig.spec.json"
     }
   ]
 }
