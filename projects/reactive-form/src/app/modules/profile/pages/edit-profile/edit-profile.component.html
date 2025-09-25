@@ -1,0 +1,48 @@
+<form [formGroup]="profile">
+  <div class="form-row">
+    <label for="firstName">First Name: </label>
+    <input id="firstName" type="text" formControlName="firstName" />
+  </div>
+
+  <div class="form-row">
+    <label for="lastName">Last Name: </label>
+    <input id="lastName" type="text" formControlName="lastName" />
+    @if(profile.get('lastName')?.errors?.['required'] && profile.get('lastName')?.touched) {
+    <br />
+    <span style="color: red">Last Name is required</span>
+    }
+  </div>
+
+  <div class="form-row">
+    <label for="email">Email: </label>
+    <input id="email" type="text" formControlName="email" />
+  </div>
+
+  <div class="form-row">
+    <label>Phones: </label>
+    <div class="phones">
+      @for(ctrl of phones.controls; track ctrl; let i = $index) {
+      <div formArrayName="phone" class="phone">
+        <input type="text" [formControlName]="i" />
+        <button type="button" (click)="removePhone(i)">Remove</button>
+      </div>
+      }
+    </div>
+  </div>
+
+  <div class="form-row">
+    <label>Not a robot: </label>
+    <app-not-a-robot formControlName="notARobot" />
+  </div>
+
+  <button type="button" (click)="addPhone()">Add phone</button>
+</form>
+
+<br />
+<button type="button" (click)="updateProfile()" [disabled]="profile.invalid">Update Profile</button>
+
+<br />
+<br />
+<pre
+  >{{ profile.value | json }}
+</pre>

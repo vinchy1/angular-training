@@ -29,6 +29,12 @@
     },
     {
       "path": "./projects/hello-angular/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/reactive-form/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/reactive-form/tsconfig.spec.json"
     }
   ]
 }
