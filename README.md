@@ -84,10 +84,15 @@ Cette formation a été spécifiquement conçue pour aider des développeurs ave
 - valueChanges()
 - RxJS (switchMap, debounceTime)
 
-### 3.8. Optimization
+### 3.8. Optimisation
 
 - Custom pipes
 - OnPush
 - Cycle de vie des composants
 
 ### 3.9. Signals and zoneless app
+
+### Liens externes intéressants
+
+- **Event loop JavaScript**: [The JavaScript Event Loop — explained with examples](https://medium.com/@ignatovich.dm/the-javascript-event-loop-explained-with-examples-d8f7ddf0861d 'Article Medium : Event Loop JS')
+- **RxJS (documentation officielle)**: [rxjs.dev](https://rxjs.dev 'Documentation officielle RxJS')
