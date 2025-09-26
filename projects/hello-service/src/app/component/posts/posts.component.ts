@@ -10,7 +10,7 @@ import { PostService } from "../../services/post.service";
     imports: [CommonModule]
 })
 export class PostsComponent {
-    posts = input.required<Post[]>();
+    posts = input<Post[] | null>();
     
     deleteEvent = output<string>();
 
