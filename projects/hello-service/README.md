@@ -10,6 +10,12 @@ import { Injectable } from '@angular/core';
 export class MyService {}
 ```
 
+## Resolution of providers
+
+Providers can be declared in Components and Modules. Resolutions of providers:
+- First in components, from the component itself, up to the AppComponent
+- If no provider in any of these components, then we looked into module providers, from AppModule (app.config.ts), down to the child module
+
 ## Step 1 — Add a new application to your Angular workspace
 
 ```bash
