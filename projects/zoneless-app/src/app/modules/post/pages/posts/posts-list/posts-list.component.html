@@ -1,0 +1,16 @@
+<div class="posts-list">
+  @for (post of posts(); track post.id) {
+  <div class="post">
+    <div class="post-header">
+      <span class="post-header-title" [routerLink]="['/posts', post.id]">{{ post.title }}</span>
+      <span class="delete-post" (click)="deletePost(post.id)">X</span>
+    </div>
+    <div class="post-body">
+      {{ post.content }}
+    </div>
+    <div class="post-footer">
+      <span class="post-footer-views">{{ post.views }}</span>
+    </div>
+  </div>
+  }
+</div>

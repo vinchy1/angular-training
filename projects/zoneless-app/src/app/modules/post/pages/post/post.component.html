@@ -1,0 +1,22 @@
+<div style="padding: 1rem">
+  @if (post$ | async; as post) { @if (editMode()) {
+  <div [formGroup]="form">
+    <div class="form-row">
+      <label for="title">Title</label>
+      <input type="text" formControlName="title" />
+    </div>
+
+    <div class="form-row">
+      <label for="content">Content</label>
+      <textarea type="text" formControlName="content"></textarea>
+    </div>
+  </div>
+  <button (click)="toggleEditMode()">Cancel</button>
+  <button (click)="updatePost(post.id)">Save</button>
+  } @else {
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.content }}</p>
+  <p>{{ post.views }}</p>
+  <button (click)="toggleEditMode()">Edit post</button>
+  } }
+</div>

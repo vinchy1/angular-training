@@ -1,0 +1,25 @@
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a class="brand" routerLink="/">Zoneless</a>
+    <ul class="navbar-list">
+      <li>
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          aria-current="page"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/posts"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          Posts
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

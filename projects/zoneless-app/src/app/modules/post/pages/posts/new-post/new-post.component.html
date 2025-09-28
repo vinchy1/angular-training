@@ -1,0 +1,13 @@
+<div class="new-post">
+  <div [formGroup]="form" class="form">
+    <div class="form-row">
+      <label for="title">Title</label>
+      <input type="text" formControlName="title" />
+    </div>
+    <div class="form-row">
+      <label for="content">Content</label>
+      <textarea type="text" formControlName="content"></textarea>
+    </div>
+    <button (click)="onSubmit()">Create Post</button>
+  </div>
+</div>
