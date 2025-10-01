@@ -96,3 +96,6 @@ Cette formation a été spécifiquement conçue pour aider des développeurs ave
 
 - **Event loop JavaScript**: [The JavaScript Event Loop — explained with examples](https://medium.com/@ignatovich.dm/the-javascript-event-loop-explained-with-examples-d8f7ddf0861d 'Article Medium : Event Loop JS')
 - **RxJS (documentation officielle)**: [rxjs.dev](https://rxjs.dev 'Documentation officielle RxJS')
+- Angular migrations: https://angular.dev/update-guide
+- Angular version compatibility: https://angular.dev/reference/versions
+
