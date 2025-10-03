@@ -1,0 +1,8 @@
+@for(post of posts(); track post.id) {
+    <app-post-item
+        [post]="post"
+        [editId]="editId"
+        (onUpdate)="update($event)"
+        (onDelete)="delete($event)"
+    ></app-post-item>
+}

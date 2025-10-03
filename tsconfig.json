@@ -29,6 +29,12 @@
     },
     {
       "path": "./projects/hello-angular/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/combine-latest-example/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/combine-latest-example/tsconfig.spec.json"
     }
   ]
 }

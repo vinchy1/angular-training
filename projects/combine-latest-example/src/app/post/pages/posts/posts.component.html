@@ -1,0 +1,9 @@
+<app-quick-search [search]="ctrl"></app-quick-search>
+
+@if(posts$ | async; as posts) {
+    <app-list-of-posts
+        [posts]="posts"
+        (onUpdate)="update($event)"
+        (onDelete)="delete($event)"
+    ></app-list-of-posts>
+}
